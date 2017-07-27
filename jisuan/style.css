@@ -1,0 +1,68 @@
+*{
+    margin:0px; 
+    padding:0px;
+}
+body{
+    background:#EFEFEF;
+    font-family: arial;
+    font-size:18px;
+}
+.content{
+    background:url(background.jpg) no-repeat;
+    background-size:584px 633px;
+    width:600px;
+    height:595px;
+    margin:0 auto;
+    margin-top:150px;
+    position:relative;   
+}
+.background{
+    background:#fff;
+    width:230px;
+    height:384px;
+    position:absolute;
+    margin:76px 0 0 254px;
+    border:#bbb8b7 3px solid;
+}
+.result{
+    height:100px;
+    width:230px;
+    border-bottom:1px solid #bbb8b7;
+}
+.result #cal{
+    display:block;
+    height:100px;
+    width:199px;
+    padding:0 8px;
+    line-height: 160px;
+    font-size:24px;
+    text-align: right;
+    padding-right:12px;
+    overflow: hidden;
+    letter-spacing: 2px;
+}
+.key{
+    margin-top:4px;
+}
+.key .btn{  
+    width:45px;
+    height:45px;
+    border-radius: 45px;
+    float:left;
+    line-height: 45px;
+    text-align: center;
+    margin:5px 6px;
+    box-shadow:0 0 5px 1px  rgba(0,0,0,0.2),
+        1px 0 5px 1px  rgba(0,0,0,0.2),
+        2px 0 5px 1px  rgba(0,0,0,0.3)
+        ;  
+    background: -webkit-linear-gradient(rgba(255,204,204,0.2),#DB7093);
+    background: -o-linear-gradient(rgba(255,204,204,0.2),#DB7093); 
+    background: -moz-linear-gradient(rgba(255,204,204,0.2),#DB7093);  
+    background: linear-gradient(rgba(255,204,204,0.2),#DB7093); 
+}
+.key .btn.equal{
+    width:102px;
+    height:45px;
+    background:rgba(199,21,133,0.7);
+}
